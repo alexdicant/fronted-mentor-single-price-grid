@@ -1,0 +1,44 @@
+:root {
+  --cyan: hsl(179, 62%, 43%);
+  --light-cyan: rgb(108, 187, 188);
+  --bright-yellow: hsl(71, 73%, 54%);
+  --light-gray: hsl(204, 43%, 93%);
+  --grayish-blue: hsl(218, 22%, 67%);
+  --white: rgb(255, 255, 255);
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: var(--light-gray);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+.container {
+  background-color: var(--white);
+  height: 90vh;
+  width: 80vw;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.container-info {
+  background-color: var(--white);
+}
+
+.container-price {
+  background-color: var(--cyan);
+}
+
+.container-about {
+  background-color: var(--light-cyan);
+  color: var(--white);
+}
